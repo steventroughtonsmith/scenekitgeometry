@@ -13,6 +13,15 @@
 		B0549409175E4AF900FEF053 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B0549407175E4AF900FEF053 /* Credits.rtf */; };
 		B054940C175E4AF900FEF053 /* SKGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B054940B175E4AF900FEF053 /* SKGAppDelegate.m */; };
 		B054940F175E4AF900FEF053 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B054940D175E4AF900FEF053 /* MainMenu.xib */; };
+		B0549416175E4AFE00FEF053 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0549415175E4AFE00FEF053 /* SceneKit.framework */; };
+		B0549418175E4B0200FEF053 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0549417175E4B0200FEF053 /* OpenGL.framework */; };
+		B054941B175E4B1400FEF053 /* SKGView.m in Sources */ = {isa = PBXBuildFile; fileRef = B054941A175E4B1400FEF053 /* SKGView.m */; };
+		B054941E175E4B9C00FEF053 /* OBLevelGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B054941D175E4B9C00FEF053 /* OBLevelGenerator.m */; };
+		B0549420175E4BC000FEF053 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B054941F175E4BC000FEF053 /* QuartzCore.framework */; };
+		B0549425175E4C1000FEF053 /* grass.png in Resources */ = {isa = PBXBuildFile; fileRef = B0549421175E4C1000FEF053 /* grass.png */; };
+		B0549426175E4C1000FEF053 /* sword.png in Resources */ = {isa = PBXBuildFile; fileRef = B0549422175E4C1000FEF053 /* sword.png */; };
+		B0549427175E4C1000FEF053 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = B0549423175E4C1000FEF053 /* face.png */; };
+		B0549428175E4C1000FEF053 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = B0549424175E4C1000FEF053 /* heart.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +38,17 @@
 		B054940A175E4AF900FEF053 /* SKGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKGAppDelegate.h; sourceTree = "<group>"; };
 		B054940B175E4AF900FEF053 /* SKGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKGAppDelegate.m; sourceTree = "<group>"; };
 		B054940E175E4AF900FEF053 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		B0549415175E4AFE00FEF053 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		B0549417175E4B0200FEF053 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		B0549419175E4B1400FEF053 /* SKGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKGView.h; sourceTree = "<group>"; };
+		B054941A175E4B1400FEF053 /* SKGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKGView.m; sourceTree = "<group>"; };
+		B054941C175E4B9C00FEF053 /* OBLevelGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBLevelGenerator.h; sourceTree = "<group>"; };
+		B054941D175E4B9C00FEF053 /* OBLevelGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBLevelGenerator.m; sourceTree = "<group>"; };
+		B054941F175E4BC000FEF053 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B0549421175E4C1000FEF053 /* grass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grass.png; sourceTree = "<group>"; };
+		B0549422175E4C1000FEF053 /* sword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sword.png; sourceTree = "<group>"; };
+		B0549423175E4C1000FEF053 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = "<group>"; };
+		B0549424175E4C1000FEF053 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +56,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0549420175E4BC000FEF053 /* QuartzCore.framework in Frameworks */,
+				B0549418175E4B0200FEF053 /* OpenGL.framework in Frameworks */,
+				B0549416175E4AFE00FEF053 /* SceneKit.framework in Frameworks */,
 				B05493F9175E4AF900FEF053 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +86,9 @@
 		B05493F7175E4AF900FEF053 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B054941F175E4BC000FEF053 /* QuartzCore.framework */,
+				B0549417175E4B0200FEF053 /* OpenGL.framework */,
+				B0549415175E4AFE00FEF053 /* SceneKit.framework */,
 				B05493F8175E4AF900FEF053 /* Cocoa.framework */,
 				B05493FA175E4AF900FEF053 /* Other Frameworks */,
 			);
@@ -82,9 +108,12 @@
 		B05493FE175E4AF900FEF053 /* SceneKitGeometry */ = {
 			isa = PBXGroup;
 			children = (
+				B054941C175E4B9C00FEF053 /* OBLevelGenerator.h */,
+				B054941D175E4B9C00FEF053 /* OBLevelGenerator.m */,
 				B054940A175E4AF900FEF053 /* SKGAppDelegate.h */,
 				B054940B175E4AF900FEF053 /* SKGAppDelegate.m */,
-				B054940D175E4AF900FEF053 /* MainMenu.xib */,
+				B0549419175E4B1400FEF053 /* SKGView.h */,
+				B054941A175E4B1400FEF053 /* SKGView.m */,
 				B05493FF175E4AF900FEF053 /* Supporting Files */,
 			);
 			path = SceneKitGeometry;
@@ -93,6 +122,8 @@
 		B05493FF175E4AF900FEF053 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B054940D175E4AF900FEF053 /* MainMenu.xib */,
+				B0549429175E4C1600FEF053 /* Images */,
 				B0549400175E4AF900FEF053 /* SceneKitGeometry-Info.plist */,
 				B0549401175E4AF900FEF053 /* InfoPlist.strings */,
 				B0549404175E4AF900FEF053 /* main.m */,
@@ -100,6 +131,17 @@
 				B0549407175E4AF900FEF053 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0549429175E4C1600FEF053 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B0549421175E4C1000FEF053 /* grass.png */,
+				B0549422175E4C1000FEF053 /* sword.png */,
+				B0549423175E4C1000FEF053 /* face.png */,
+				B0549424175E4C1000FEF053 /* heart.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +199,10 @@
 				B0549403175E4AF900FEF053 /* InfoPlist.strings in Resources */,
 				B0549409175E4AF900FEF053 /* Credits.rtf in Resources */,
 				B054940F175E4AF900FEF053 /* MainMenu.xib in Resources */,
+				B0549425175E4C1000FEF053 /* grass.png in Resources */,
+				B0549426175E4C1000FEF053 /* sword.png in Resources */,
+				B0549427175E4C1000FEF053 /* face.png in Resources */,
+				B0549428175E4C1000FEF053 /* heart.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +215,8 @@
 			files = (
 				B0549405175E4AF900FEF053 /* main.m in Sources */,
 				B054940C175E4AF900FEF053 /* SKGAppDelegate.m in Sources */,
+				B054941B175E4B1400FEF053 /* SKGView.m in Sources */,
+				B054941E175E4B9C00FEF053 /* OBLevelGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
